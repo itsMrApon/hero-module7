@@ -1,0 +1,21 @@
+/* .container{
+  display: flex;
+  
+} */
+
+.box{
+  float: left;
+  width: 100px;
+
+  /* height: 700px; */
+  /* new  hight style*/
+  max-height: 500px;
+  
+  /* mouse ki style hobe */
+  /* cursor: not-allowed; */
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightpink;
+  
+}
