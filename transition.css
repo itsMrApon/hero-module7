@@ -1,0 +1,16 @@
+.box{
+  height: 200px;
+  width: 200px;
+  border: 2px solid coral;
+  background-color: cyan;
+  /* movement conrol korte trassition use hoy */
+  /* 1 kondikke 2 kotokhn 3 kivabe 4 kotokhn por */
+  /* transition: width 10s linear 2s; */
+ 
+  transition: width 10s, height 1s, transform 1s ;
+}
+.box:hover{
+  width: 400px;
+  height: 300px;
+  transform: rotate(180deg);
+}

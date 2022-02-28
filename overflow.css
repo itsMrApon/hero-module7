@@ -1,0 +1,25 @@
+.mega-box{
+  width: 500px;
+  height: 400px;
+  border: 5px solid slateblue;
+  /* overfl ke control korar use  */
+  overflow: scroll ;
+  overflow-x: hidden;
+}
+.normal-box{
+  width: 500px;
+  height: 400px;
+  border: 5px solid slateblue;
+}
+.mini-mini{
+  width: 150px;
+  border: 3px solid royalblue;
+  overflow: hidden;
+}
+.short-text{
+  /* line e kono banga thakbe na */
+  white-space: nowrap;
+  overflow: hidden;
+  /* jayga na thakle ellipsis use hoy */
+  text-overflow: ellipsis;
+}

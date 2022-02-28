@@ -1,0 +1,23 @@
+/* .container .inner{
+  height: 150px;
+  width: 150px;
+} */
+.container {
+  height: 150px;
+  width: 150px;
+  border: 2px solid red;
+  background-color: lightcoral;
+  /* transform: rotate(45deg); */
+}
+.inner {
+  height: 150px;
+  width: 150px;
+  border: 2px solid royalblue;
+  background-color: lightskyblue;
+  /* scale dia %zoom korar moto dekte use hoy */
+  transform: translate(50px ,50px) scale(.75) rotate(45deg);
+  /* rotate use kore gurano jay */
+  /* transform: rotate(45deg); */
+  /* translate die position soranojay */
+  /* transform: translateY(50px); */
+}

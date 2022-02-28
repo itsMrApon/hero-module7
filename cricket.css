@@ -1,0 +1,27 @@
+.ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: darkblue;
+  position: relative;
+  left: 305px;
+  top: -10px;
+  transition: transform 1s ease-out 0.2s;
+}
+.field:hover .ball {
+  transform: translate(300px, -100px);
+}
+
+.field {
+  border: 1px solid;
+}
+
+/* jodi mouse je kono jaygay nile hover korate hoy then--- .:hover . --- use hoy */
+.field:hover .bat {
+  transform: rotate(-60deg);
+  /* kon area base kore gurbe */
+  transform-origin: top right;
+}
+.bat {
+  transition: transform 0.2s ease-in;
+}
